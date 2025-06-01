@@ -1,5 +1,7 @@
 # kicad-circuit-templates
-Collection of re-usable circuits to speed up electronic development.
+Collection of re-usable circuits to speed up electronic development. These circuits typically have the following characteristics:
+- Surface Mount
+- Use Digikey components which are commonly stocked and availible in prototype quantities
 
 # List of circuits
 
