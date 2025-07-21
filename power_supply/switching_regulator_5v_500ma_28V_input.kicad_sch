@@ -1743,7 +1743,7 @@
 				)
 			)
 		)
-		(property "Value" "B130-E3"
+		(property "Value" "CDBW140-G"
 			(at 115.8875 83.82 0)
 			(effects
 				(font
