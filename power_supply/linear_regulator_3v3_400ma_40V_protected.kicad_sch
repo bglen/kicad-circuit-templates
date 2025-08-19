@@ -1226,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 119.38) (xy 116.84 121.92)
+			(xy 115.57 119.38) (xy 115.57 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1730,7 +1730,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 121.92 0)
+		(at 115.57 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1739,7 +1739,7 @@
 		(fields_autoplaced yes)
 		(uuid "590869f8-df93-4552-9a16-ab2ea7c06a57")
 		(property "Reference" "#PWR?"
-			(at 116.84 128.27 0)
+			(at 115.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1748,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 127 0)
+			(at 115.57 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 121.92 0)
+			(at 115.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 121.92 0)
+			(at 115.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 121.92 0)
+			(at 115.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9336ec8-e850-4dad-9d55-c8f848945707")
-		(property "Reference" "TP?"
+		(property "Reference" "3.3V"
 			(at 181.61 85.5979 0)
 			(effects
 				(font
@@ -2445,7 +2445,7 @@
 		(instances
 			(project "power_supply_3v3_400ma_40V_protected"
 				(path "/49cac681-4fee-4c3c-9188-8849ebd3eabe"
-					(reference "TP?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -2535,7 +2535,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 119.38 0)
+		(at 115.57 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2543,8 +2543,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e19a4006-147c-48a5-8437-afa28607fb27")
-		(property "Reference" "TP?"
-			(at 119.38 114.8079 0)
+		(property "Reference" "GND"
+			(at 118.11 114.8079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 117.3479 0)
+			(at 118.11 117.3479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2562,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 121.92 119.38 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 119.38 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 119.38 0)
+			(at 115.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2593,7 @@
 		(instances
 			(project "power_supply_3v3_400ma_40V_protected"
 				(path "/49cac681-4fee-4c3c-9188-8849ebd3eabe"
-					(reference "TP?")
+					(reference "GND")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd554b5d-2086-48c4-9f90-7fcf6d6d45d2")
-		(property "Reference" "TP1"
+		(property "Reference" "VIN"
 			(at 128.27 85.5979 0)
 			(effects
 				(font
@@ -2665,7 +2665,7 @@
 		(instances
 			(project "power_supply_3v3_400ma_40V_protected"
 				(path "/49cac681-4fee-4c3c-9188-8849ebd3eabe"
-					(reference "TP1")
+					(reference "VIN")
 					(unit 1)
 				)
 			)
