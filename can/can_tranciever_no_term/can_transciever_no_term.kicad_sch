@@ -945,6 +945,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Note: if replacing with other TCAN devices, verify VCC compatibility "
+		(exclude_from_sim no)
+		(at 162.56 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b2675c8-11aa-43e0-a85a-a409ed92b6fa")
+	)
 	(text "CAN Bus Tranciever"
 		(exclude_from_sim no)
 		(at 14.224 20.32 0)
